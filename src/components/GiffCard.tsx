@@ -19,7 +19,3 @@ export const GiffCard = ({ gif }: Iprops) => {
     </>
   );
 };
-
-// export const Phrase: React.FC<PhraseProps> = ({ quote })
-// export const BtnPhrase = ({ nextPhrase }: NextPhraseFunc)
-// export const FormSearch: FC<Iprops> = ({ getInputSearchInfo })

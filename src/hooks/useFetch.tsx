@@ -16,9 +16,7 @@ export const useFetch = (gif: string) => {
   };
 
   useEffect(() => {
-    if (gif) {
-      handleGetGiffs();
-    }
+    handleGetGiffs();
   }, [gif]);
 
   return { giffDataList };
